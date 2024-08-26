@@ -33,13 +33,11 @@ namespace Sample
             float a = Convert.ToSingle(Console.ReadLine());
             Console.Write("Nhap so thu hai = ");
             float b = Convert.ToSingle(Console.ReadLine());
-            int c = (int)(a/b);
-            float mod = a - c * b;
             Console.WriteLine("{0} + {1} = {2}",a,b,a+b );
             Console.WriteLine("{0} - {1} = {2}", a, b, a - b);
             Console.WriteLine("{0} x {1} = {2}", a, b, a * b);
             Console.WriteLine("{0} : {1} = {2}", a, b, a / b);
-            Console.WriteLine("{0} mod {1} = {2}", a, b, mod );
+            Console.WriteLine("{0} mod {1} = {2}", a, b, a % b );
         }
 
         static void exstring01()
