@@ -15,7 +15,7 @@
             Console.WriteLine($"The amount of your money: {tien}");
             Console.Write("You bet: ");
             tiencuoc = int.Parse("0"+Console.ReadLine());
-            if (tiencuoc>tien) {Console.WriteLine("Ban khong du tien de tiep tuc tro choi!");
+            if (tiencuoc>tien) {Console.WriteLine("You don't have enough money to continue the game!");
             break;}
             
 
@@ -31,7 +31,7 @@
 
                     if (man_num == comp_num) {
                         Console.WriteLine("Bravo! You are Genius!");
-                        Console.WriteLine($"So tien ban nhan duoc la: {tiencuoc}");
+                        Console.WriteLine($"The amount of money you received is: {tiencuoc}");
                         tien = tien + tiencuoc;
                         tiencuoc = 0; 
                         win++;
@@ -53,10 +53,10 @@
             }
         } while (true);
 
-        System.Console.WriteLine($"So lan da choi la: {times}");
-        System.Console.WriteLine($"So lan thang la: {win}");
-        System.Console.WriteLine($"So lan thua la: {times - win}");
-        System.Console.WriteLine($"So tien con lai cua ban la: {tien}");
+        System.Console.WriteLine($"The number of times played is: {times}");
+        System.Console.WriteLine($"The number of win times is: {win}");
+        System.Console.WriteLine($"The number of lose times is: {times - win}");
+        System.Console.WriteLine($"Your remaining amount is: {tien}");
         System.Console.WriteLine("Bye! See you again!");
     }
 }
