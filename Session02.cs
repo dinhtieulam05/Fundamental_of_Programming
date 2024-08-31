@@ -7,6 +7,7 @@ namespace Sample
         }
         
         public static void baitap1() {
+            //to Add/Sum Two Numbers.
             Console.Write("Nhap so thu nhat: a = ");
             double a = Convert.ToDouble(Console.ReadLine());
             Console.Write("Nhap so thu hai: b = ");
@@ -15,6 +16,7 @@ namespace Sample
         }
 
         public static void baitap2() {
+            //to Swap Values of Two Variables.
             Console.Write("So thu nhat truoc khi hoan doi: a = ");
             double a = Convert.ToDouble(Console.ReadLine());
             Console.Write("So thu hai truoc khi hoan doi: b = ");
@@ -26,6 +28,7 @@ namespace Sample
         }
 
         public static void baitap3() {
+            //to Multiply two Floating Point Numbers.
             Console.Write("Nhap so thu nhat: a = ");
             double a = Convert.ToDouble(Console.ReadLine());
             Console.Write("Nhap so thu hai: b = ");
@@ -34,6 +37,7 @@ namespace Sample
         }
 
         public static void baitap4() {
+            //to convert feet to meter.
             Console.Write("Nhap so feet: a = ");
             double a = Convert.ToDouble(Console.ReadLine());
             double b = a / 3.2808 ;
@@ -41,6 +45,7 @@ namespace Sample
         }
 
         public static void baitap5() {
+            //to convert Celsius to Fahrenheit and vice versa.
             Console.Write("Nhap do C: a = ");
             double a = Convert.ToDouble(Console.ReadLine());
             Console.Write("Nhap do F: b = ");
@@ -50,12 +55,14 @@ namespace Sample
         }
 
         public static void baitap8() {
+            //to Calculate Area of Circle.
             Console.Write("Nhap duong kinh cua hinh tron: a = ");
             double a = Convert.ToDouble(Console.ReadLine());
             System.Console.WriteLine("dien tich hinh tron la: {0}", (a/2)*(a/2)*3.14);
         }
 
         public static void baitap9() {
+            //to Calculate Area of Square.
             Console.Write("Nhap mot canh cua hinh vuong: a = ");
             double a = Convert.ToDouble(Console.ReadLine());
             System.Console.WriteLine("dien tich hinh vuong la: {0}", a*a);
