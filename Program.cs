@@ -18,7 +18,7 @@
             if (tiencuoc>tien) {Console.WriteLine("You don't have enough money to continue the game!");
             break;}
             
-
+            //Máy chọn số
             Random rnd = new Random();
             int comp_num = rnd.Next(1,100);
             int man_num = 0;
@@ -26,7 +26,7 @@
 
             for (int i = 0; i <5 ; i++) {
                
-                    Console.Write("Your number: ");
+                    Console.Write("Your number: "); //Bạn đoán số
                     man_num = int.Parse("0"+Console.ReadLine());
 
                     if (man_num == comp_num) {
@@ -39,9 +39,9 @@
                     }
                     else if (man_num < comp_num) Console.WriteLine("Your guessing number is less than computer number");
                     else Console.WriteLine("Your guessing number is greater than computer number");
-                    tien = tien - tiencuoc / 5;
                     if (i==4) Console.WriteLine("You lose!");
                 }
+            tien = tien - tiencuoc;
             
             Console.WriteLine($"The computer number is {comp_num}");
             Console.WriteLine();
