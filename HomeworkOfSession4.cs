@@ -50,8 +50,8 @@
             //Xét các tam giác
             if(a==b || a==c || b==c) System.Console.WriteLine("This is a Isosceles Triangle.");
             else if(a==b && a==c ) System.Console.WriteLine("This is a Equilateral Triangle.");
-            else if (a*a+b*b==c*c || a*a+c*c==b*b || c*c+b*b==a*a) Console.WriteLine("This is a Scalene Triangle.");
-            else Console.WriteLine("It is a normal triangle.");
+            else if (a*a+b*b==c*c || a*a+c*c==b*b || c*c+b*b==a*a) Console.WriteLine("This is a Right Triangle.");
+            else Console.WriteLine("It is a Scalene triangle.");
         }
         else {
             Console.WriteLine("This is not a triangle."); 
