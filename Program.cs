@@ -1,6 +1,5 @@
 ﻿internal class Program
 {
-    private const int V = 1000;
 
     private static void Main(string[] args)
     {
